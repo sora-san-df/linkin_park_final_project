@@ -1,10 +1,20 @@
+:root{
+  --light-gray: #dcdcdc;
+  --black: #000000;
+  --dark-gray: #212121;
+  --gray: #616161;
+}
+
 *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .container{
-    width: 100px;
-    background-color: burlywood;
+  display: grid;
+  grid-template-columns: repeat(10, 2fr);
+  grid-template-rows: repeat(10, 2fr);
+  height: 100vh;
+  background-color: #dcdcdc;
 }
